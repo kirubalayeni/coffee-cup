@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    height:15vh ;
+}
+#header_logo{
+    background-color: rgb(34, 33, 33);
+    width: 55%;
+    padding-left: 53px;
+    padding-top: 33px;
+}
+#nav{
+    background-color: rgb(34, 33, 33);
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(178, 179, 180);
+    padding-top: 36px;
+    font-size: large;
+}
+#first_background{
+    background-image: url("banner-bg.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 87vh;
+    padding-top: 0.2px;
+}
+#nav_first{
+    color: chocolate;
+}
+#search{
+    width: 3%;
+    height: 3vh;
+    color: white;
+}
+#first_head{
+    margin-top: 100px;
+    margin-left: 110px;
+    font-size: 90px;
+    font-weight: lighter;
+    color: rgb(41, 32, 32);  
+}
+#Coffee{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin-left:110px ;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#para{
+    color: rgb(240, 238, 238);
+    margin-left:110px ;
+    margin-top: 7px;
+    margin-right: 570px;
+    font-size: x-large;  
+}
+#btn_1{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    margin-left:110px ;
+    margin-top: 26px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 37px;
+    padding-right: 37px;
+    font-size: small;
+    border: transparent;
+}
+#first_box{
+    display: flex;
+}
+#one_side{
+    width: 100%;
+height: 75vh;
+margin-top: 129px;
+margin-bottom: 100px;
+margin-left: 115px;
+margin-right: 80px;
+}
+#second_side{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    margin-top:  129px;
+    margin-bottom: 100px;
+}
+#about{
+    color: chocolate;
+    font-size: 40px;
+    margin-top: 130px;
+}
+#para2{
+    color: rgb(189, 185, 185);
+    font-size: large;
+    margin-top: 21px;
+}
+#para3{
+    color: rgb(189, 185, 185);
+    font-size: large;
+    margin-top: 17px;
+}
+#btn_2{
+    background-color: rgb(43, 42, 42);
+    color: rgb(219, 216, 216);
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border: transparent;
+    margin-top: 39px;
+    font-size: 15px;
+}
+#third_sec{
+    width: 100%;
+    height: 240vh;
+}
+#head3{
+    color: rgb(240, 124, 41);
+    margin-left: 560px;
+    margin-bottom: 35px;
+    font-size: 40px;
+}
+#para4{
+    color: rgb(160, 159, 159);
+    margin-left: 120px;
+    margin-right: 90px;
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+#coffee_collage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18px; 
+    margin-left: 120px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+}
+#img1{
+    background-image: url(img-2.png);
+    width: 80%;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 35px;
+}
+#img2{
+    background-image: url(img-3.png);
+    width: 80%;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 35px;
+}
+#img3{
+    background-image: url(img-4.png);
+    width: 78%;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 35px;
+}
+#img4{
+    background-image: url(img-5.png);
+    width: 78%;
+    height: 57vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 35px;
+}
+#img5{
+    background-image: url(img-6.png);
+    width: 78%;
+    height: 57vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 35px;
+}
+#img6{
+    background-image: url(img-7.png);
+    width: 78%;
+    height: 57vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 35px;
+}
+#img7{
+    background-image: url(img-8.png);
+    width: 78%;
+    height: 57vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+#img8{
+    background-image: url(img-9.png);
+    width: 78%;
+    height: 57vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+#img9{
+    background-image: url(img-2.png);
+    width: 78%;
+    height: 57vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+#btn_3{
+background-color: #252525;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 15px;
+padding-bottom: 15px;
+color: white;
+border: transparent;
+margin-left: 590px;
+font-size: large;
+}
+#head4{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+#quick_logo{
+    margin-left: 23px;
+    width: 2%;
+    height: 4vh;
+}
+#fourth_logo{
+    color: chocolate;
+}
+#fourth_head{
+    color: chocolate;
+    font-size: 50px;
+    margin-left: 78px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+#para6{
+    color: rgb(61, 58, 58);
+    margin-left: 78px;
+    margin-bottom:50px ;
+    font-size: 20px;
+}
+#lorem1{
+    color: rgb(61, 58, 58);
+margin-left: 70px;
+font-size: 20px;
+font-weight: lighter;
+}
+#btn{
+    margin-left: 580px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+#bt1{
+    background-color: rgb(26, 25, 25);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 8px;
+    border: transparent;
+}
+#bt2{
+    background-color: rgb(207, 107, 36);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 8px;
+    border: transparent;
+}
+#bt3{
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: transparent;
+}
+#black_box{
+    height: 410px;
+    background-color: rgb(34, 34, 34);
+    margin-bottom: 70px;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+#box1{
+    font-size: large;
+    padding-top: 100px; 
+}
+
+#abouts{
+    font-size: xx-large;
+    padding-bottom: 28px;
+}
+#box2{
+    padding-top: 100px;
+    font-size: larger;
+}
+#menu{
+    font-size: larger;
+    padding-bottom: 28px;
+}
+#head_list{
+    list-style-type: none;
+    font-size: large;
+}
+#box3{
+    padding-top: 100px;
+    font-size: larger; 
+}
+#useful{
+    padding-bottom: 20px; 
+}
+#box4{
+    padding-top: 100px;
+    font-size: large;
+}
+#contact{
+    padding-bottom: 20px;
+}
+#address{
+    display: flex;
+    padding-bottom: 12px;
+}
+#address_line{
+    font-size: large;
+    font-weight: lighter;
+}
+#maps_icon{
+    margin-right: 10px;
+    width: 4%;
+    height: 4vh;
+}
+#call{
+    display: flex;
+    padding-bottom: 12px;
+}
+#call_icon{
+    width: 4%;
+    height: 4vh;
+    margin-right: 10px;
+}
+#call_line{
+    font-size: large;
+    font-weight: lighter;
+}
+#mail{
+    display: flex;
+    padding-bottom: 12px;
+}
+#mail_line{
+    font-size: large;
+    font-weight: lighter;
+}
+#mail_icon{
+    width: 4%;
+    height: 4vh;
+    margin-right: 10px;
+}
+#list{
+    padding-bottom: 5px;
+}
+#useful_list{
+    padding-bottom: 5px;
+}
+
